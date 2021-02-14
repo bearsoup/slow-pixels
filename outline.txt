@@ -1,0 +1,15 @@
+* Setup *
+
+    - Bridge connection
+        - Discover Bridge
+        - Connect to Bridge
+        - Store Bridge connection for reuse
+
+    - Prepare light states
+        - Construct an object for each light
+
+* Main loop *
+
+    - Update light states from database
+    - Set light states on lights
+    - Wait n ms
