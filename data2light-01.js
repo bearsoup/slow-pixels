@@ -3,6 +3,8 @@ const fs = require('fs');
 const data = fs.readFileSync('data/loading_green_house.json');
 const pixels = JSON.parse(data);
 
+const maxApi = require('max-api');
+
 // Set up node-hue-api
 
 const v3 = require('node-hue-api').v3;
@@ -70,6 +72,8 @@ async function makeArt() {
 
     for (const [i, e] of pixels.entries()) {
         console.log(i, e);
+        maxApi.post(i, e);
+        maxApi.outlet(e);
         const currentLightState = updateLightState(
             bulbOneState, 
             e[0], 
@@ -81,7 +85,7 @@ async function makeArt() {
             .then(result => console.log(`Light state change successful? ${result}`))
             .catch(err => console.log(err));
 
-        await sleep(100); // wait one tenth of a second
+        await sleep(1000); // wait one tenth of a second
 
     }
 
