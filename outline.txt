@@ -1,3 +1,4 @@
+LIGHT
 * Setup *
 
     - Bridge connection
@@ -13,3 +14,15 @@
     - Update light states from database
     - Set light states on lights
     - Wait n ms
+
+SOUND   
+
+* Setup *
+
+    - start node script from/in Max
+    - max-api sends rgb values to max
+    - values set frequency inlet of cycle~ object
+
+** Questions **
+    How to get node.js data from json into Max
+    How to scale or max values in Max
