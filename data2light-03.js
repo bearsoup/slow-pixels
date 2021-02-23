@@ -74,13 +74,11 @@ async function makeArt() {
 
     // for each pixel's rgb array in pixels[]
     for (let i=0; i<=pixels.length; i++) {
-
-        console.log(`Pixel ${i}`);
-
+      
         // for each bulb...
         for (let j=0; j<4; j++) {
 
-            const lightID = j + 1; // find the target bulb
+            const lightID = j + 1; // find the target bulb id 1 thru 4
             const pixelIndex = pixels[i + (3 - j)]; // offset--look ahead n pixels
 
             console.log(`Pixel ${i}: Light ${lightID}: ${pixelIndex}`);
@@ -93,7 +91,7 @@ async function makeArt() {
 
         console.log('====================');
 
-        await sleep(1000); // wait one tenth second
+        await sleep(100); // wait one tenth second
     }
 
 }
