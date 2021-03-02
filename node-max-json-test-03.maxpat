@@ -40,6 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 650.0, 427.0, 60.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict score"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -683,7 +701,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.380392156862745, 0.850980392156863, 0.815686274509804, 1.0 ],
+					"bgcolor" : [ 0.772549019607843, 0.866666666666667, 0.588235294117647, 1.0 ],
 					"id" : "obj-49",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -709,7 +727,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.384313725490196, 0.850980392156863, 0.815686274509804, 1.0 ],
+					"bgcolor" : [ 0.776470588235294, 0.866666666666667, 0.592156862745098, 1.0 ],
 					"id" : "obj-46",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -740,7 +758,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 161.0, 433.5, 86.0, 22.0 ],
-					"text" : "97 217 208"
+					"text" : "197 221 150"
 				}
 
 			}
@@ -752,7 +770,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 433.5, 82.0, 22.0 ],
-					"text" : "98 217 208"
+					"text" : "198 221 151"
 				}
 
 			}
@@ -761,10 +779,10 @@
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 66.0, 353.0, 164.0, 22.0 ],
-					"text" : "dict.unpack base: lookahead:"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 66.0, 353.0, 208.0, 22.0 ],
+					"text" : "dict.unpack base: lookahead: homefr:"
 				}
 
 			}
@@ -774,7 +792,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 263.0, 140.0, 56.0 ]
+					"patching_rect" : [ 194.0, 203.0, 261.0, 155.0 ]
 				}
 
 			}
@@ -805,7 +823,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 538.5, 144.666666984558105, 400.0, 220.0 ],
+					"patching_rect" : [ 538.5, 138.0, 400.0, 220.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -838,7 +856,7 @@
 						"watch" : 0
 					}
 ,
-					"text" : "node.script data2sound-01.js"
+					"text" : "node.script data2sound-02.js"
 				}
 
 			}
@@ -984,6 +1002,13 @@
 					"destination" : [ "obj-43", 0 ],
 					"order" : 2,
 					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-33", 2 ]
 				}
 
 			}
@@ -1175,7 +1200,7 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "data2sound-01.js",
+				"name" : "data2sound-02.js",
 				"bootpath" : "~/CODE/slow-pixels",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",

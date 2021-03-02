@@ -1,0 +1,35 @@
+{"score": [
+    {
+        "step": 1,
+        "duration": 10,
+        "r": {
+            "freq": 82.4,
+            "note": "E"
+        },
+        "g": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 2,
+        "duration": 7,
+        "r": {
+            "freq": 87.3,
+            "note": "F"
+        },
+        "g": {
+            "freq": 146.8,
+            "note": "D2"
+        },
+        "b": {
+            "freq": 233.1,
+            "note": "Bb"
+        }
+    }
+]
+}
