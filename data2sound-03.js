@@ -39,15 +39,33 @@ maxApi.addHandler('speed', (speedVal) => {
 });
 
 // initialize + get score step
-let homeCount = -1;
+// let homeCount = -1;
+
+// function getFr() {
+//     if (homeCount == score.length - 1) {
+//         homeCount = 0;
+//     } else {
+//         homeCount++;
+//     }
+//     return score[homeCount]
+// }
+
+let scoreIndex = 0;
+let frDur = score[scoreIndex].duration;
 
 function getFr() {
-    if (homeCount == score.length - 1) {
-        homeCount = 0;
+    if (frDur > 0) {
+        frDur -= 1; //object repetition
     } else {
-        homeCount++;
+        if (scoreIndex == score.length - 1) {
+            scoreIndex = 0;
+        } else {
+            scoreIndex++;
+        }
+        frDur = score[scoreIndex].duration -1;
     }
-    return score[homeCount]
+
+    return score[scoreIndex];
 }
 
 // MAIN LOOP FUNCTION
