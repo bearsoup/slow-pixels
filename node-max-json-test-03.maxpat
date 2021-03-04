@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 34.0, 76.0, 1853.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,32 +47,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 649.750019550323486, 533.0, 152.0, 221.0 ],
+					"patching_rect" : [ 649.750019550323486, 533.0, 155.0, 227.0 ],
 					"text" : "scaling is too little right now.\nneed to try it by sending home frequency to one cycle~ and scaling the second based on the color (r) deltas over time.\n\nit sounded interesting befor the scaling. So maybe trick is to let frequnecies travel travel up by same increment as rgb changes. delta of one 0-255 rgb is equal 2 one Hz."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-182",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 383.5, 829.0, 42.0, 22.0 ],
-					"text" : "+ 100."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-181",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 326.0, 829.0, 42.0, 22.0 ],
-					"text" : "+ 100."
 				}
 
 			}
@@ -95,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 144.5, 816.0, 82.0, 22.0 ],
-					"text" : "83.823529"
+					"text" : "88.605882"
 				}
 
 			}
@@ -119,7 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 982.0, 933.5, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -155,7 +131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 451.5, 838.666667103767395, 68.0, 22.0 ],
-					"text" : "83.070588"
+					"text" : "88.582353"
 				}
 
 			}
@@ -179,7 +155,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1076.999990344047546, 692.400009870529175, 50.0, 22.0 ],
-					"text" : "207.7"
+					"text" : "233.1"
 				}
 
 			}
@@ -203,7 +179,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 971.999990344047546, 692.400009870529175, 50.0, 22.0 ],
-					"text" : "123.5"
+					"text" : "146.8"
 				}
 
 			}
@@ -227,7 +203,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 881.500000596046448, 686.400009870529175, 50.0, 22.0 ],
-					"text" : "82.4"
+					"text" : "87.3"
 				}
 
 			}
@@ -364,7 +340,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 30.0, 150.0, 33.0 ],
+					"patching_rect" : [ 405.0, 30.0, 150.0, 34.0 ],
 					"text" : "Adjust play speed of pixels  with this slider"
 				}
 
@@ -390,7 +366,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 30.0, 150.0, 33.0 ],
+					"patching_rect" : [ 216.0, 30.0, 150.0, 34.0 ],
 					"text" : "Adjust lookahead range with this slider"
 				}
 
@@ -415,7 +391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 23.0, 104.0, 47.0 ],
+					"patching_rect" : [ 22.0, 23.0, 104.0, 48.0 ],
 					"text" : "Click `script start` + speaker icon at bottom to begin"
 				}
 
@@ -624,7 +600,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.0, 861.0, 141.0, 33.0 ],
+					"patching_rect" : [ 58.0, 861.0, 141.0, 34.0 ],
 					"text" : "FROM EXAMPLE:\naddition of two sinusoids"
 				}
 
@@ -636,7 +612,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.5, 1176.0, 256.0, 47.0 ],
+					"patching_rect" : [ 388.5, 1176.0, 256.0, 48.0 ],
 					"text" : "In the Inspector for this object, the Initial value is set to 0.25 and the Minimum and Maximum are set to 0 (silence) and 1 (maximum output)."
 				}
 
@@ -688,7 +664,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.5, 1104.0, 156.0, 47.0 ],
+					"patching_rect" : [ 319.5, 1104.0, 156.0, 48.0 ],
 					"text" : "This is volume adjustment, always a good feature to protect the listener's ears."
 				}
 
@@ -723,7 +699,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.5, 1280.5, 256.0, 33.0 ],
+					"patching_rect" : [ 334.5, 1280.5, 256.0, 34.0 ],
 					"text" : "The sum of all signal values sent to the output should not exceed the range -1 to 1."
 				}
 
@@ -735,7 +711,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.5, 981.0, 224.0, 60.0 ],
+					"patching_rect" : [ 427.5, 981.0, 224.0, 62.0 ],
 					"text" : "The peak amplitude of the sum of these two signals will be as great as 2, so we need to reduce the amplitude by half to keep it in the proper range for output."
 				}
 
@@ -781,7 +757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.5, 901.5, 160.0, 47.0 ],
+					"patching_rect" : [ 388.5, 901.5, 160.0, 48.0 ],
 					"text" : "(A subsequent message or signal in the left inlet would replace the initialized value.)"
 				}
 
@@ -883,7 +859,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.611764705882353, 0.890196078431372, 0.858823529411765, 1.0 ],
+					"bgcolor" : [ 0.713725490196078, 0.835294117647059, 0.498039215686275, 1.0 ],
 					"id" : "obj-49",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -909,7 +885,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.737254901960784, 0.905882352941176, 0.882352941176471, 1.0 ],
+					"bgcolor" : [ 0.717647058823529, 0.83921568627451, 0.501960784313725, 1.0 ],
 					"id" : "obj-46",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -940,7 +916,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.0, 541.5, 86.0, 22.0 ],
-					"text" : "156 227 219"
+					"text" : "182 213 127"
 				}
 
 			}
@@ -952,7 +928,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 541.5, 82.0, 22.0 ],
-					"text" : "188 231 225"
+					"text" : "183 214 128"
 				}
 
 			}
@@ -1033,8 +1009,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1121,7 +1095,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-182", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"order" : 1,
 					"source" : [ "obj-134", 0 ]
 				}
@@ -1168,15 +1142,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 1 ],
-					"order" : 1,
-					"source" : [ "obj-167", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-181", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"order" : 0,
 					"source" : [ "obj-167", 0 ]
 				}
@@ -1184,15 +1150,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-181", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-182", 0 ]
+					"destination" : [ "obj-169", 1 ],
+					"order" : 1,
+					"source" : [ "obj-167", 0 ]
 				}
 
 			}
@@ -1551,7 +1511,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "data2sound-03.js",
-				"bootpath" : "~/CODE/slow-pixels",
+				"bootpath" : "~/Documents/GitHub/slow-pixels",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
