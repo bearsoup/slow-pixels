@@ -50,8 +50,19 @@ maxApi.addHandler('speed', (speedVal) => {
 //     return score[homeCount]
 // }
 
+// multiplier set in Max to control duration
+let durmult = 1;
+
+maxApi.addHandler('durmult', (durmultVal) => {
+	durmult = durmultVal;
+});
+
+maxApi.post(durmult);
+
 let scoreIndex = 0;
-let frDur = score[scoreIndex].duration;
+let frDur = durmult * score[scoreIndex].duration;
+
+maxApi.post(frDur);
 
 function getFr() {
     if (frDur > 0) {
@@ -62,7 +73,7 @@ function getFr() {
         } else {
             scoreIndex++;
         }
-        frDur = score[scoreIndex].duration -1;
+        frDur = (durmult * score[scoreIndex].duration) - 1;
     }
 
     return score[scoreIndex];
@@ -82,7 +93,7 @@ async function makeArt() {
     pixelData.lookahead = pixels[i + spread];
     pixelData.homefr =  getFr();
 
-    maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step}`);
+    maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step} Duration: ${frDur}`);
 
     maxApi.outlet(pixelData);
 
