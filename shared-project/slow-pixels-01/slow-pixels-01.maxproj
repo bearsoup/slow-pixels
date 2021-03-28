@@ -2,8 +2,8 @@
 	"name" : "slow-pixels-01",
 	"version" : 1,
 	"creationdate" : 3697628302,
-	"modificationdate" : 3697811940,
-	"viewrect" : [ 772.0, 213.0, 300.0, 500.0 ],
+	"modificationdate" : 3699178743,
+	"viewrect" : [ 968.0, 291.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -22,6 +22,11 @@
 			}
 ,
 			"slow-pixels-03.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"slow-pixels-07_no_sync-2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
