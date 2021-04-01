@@ -40,21 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-35",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "n4m.monitor.maxpat",
-					"numinlets" : 1,
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 583.666708707809448, 290.99999988079071, 589.833288073539734, 398.866676092147827 ],
-					"viewvisibility" : 1
+					"patching_rect" : [ 425.750005125999451, 17.153835296630859, 61.0, 22.0 ],
+					"text" : "delay 200"
 				}
 
 			}
@@ -1517,7 +1509,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1898.508675634860992, 1074.814026037990516, 78.000000417232513, 22.0 ],
-					"text" : "0."
+					"text" : "146.8"
 				}
 
 			}
@@ -1817,18 +1809,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-194",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 214.725234925746918, 11.0, 268.666670203208923, 48.0 ],
-					"text" : "These parameters won't be sent when the script starts. Either adjust the sliders to send a message or press this button."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-191",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1909,7 +1889,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3286.666684865951538, 1051.833333253860474, 50.0, 22.0 ],
-					"text" : "0."
+					"text" : "233.1"
 				}
 
 			}
@@ -2237,7 +2217,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2096.81141471862793, 1035.204862515270179, 78.000000417232513, 22.0 ],
-					"text" : "0."
+					"text" : "146.8"
 				}
 
 			}
@@ -2261,7 +2241,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 636.328816950321198, 817.284685492515564, 50.0, 22.0 ],
-					"text" : "207.7"
+					"text" : "25.4"
 				}
 
 			}
@@ -2502,7 +2482,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 320.254108846187592, 967.593717038631439, 50.0, 22.0 ],
-					"text" : "207.7"
+					"text" : "25.4"
 				}
 
 			}
@@ -2526,7 +2506,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 465.299106001853943, 829.80902236700058, 50.0, 22.0 ],
-					"text" : "123.5"
+					"text" : "23.3"
 				}
 
 			}
@@ -2550,7 +2530,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 214.725234925746918, 834.135132193565369, 50.0, 22.0 ],
-					"text" : "82.4"
+					"text" : "4.9"
 				}
 
 			}
@@ -2793,7 +2773,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 569.083375573158264, 761.866676509380341, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "233.1"
 				}
 
 			}
@@ -2805,7 +2785,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 249.220779418945313, 997.109032094478607, 50.0, 22.0 ],
-					"text" : "20770."
+					"text" : "2540."
 				}
 
 			}
@@ -2877,7 +2857,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 233.220779418945313, 1064.066676735877991, 66.0, 22.0 ],
-					"text" : "0."
+					"text" : "87.3"
 				}
 
 			}
@@ -2966,7 +2946,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3370.833363652229309, 1128.50000011920929, 67.0, 22.0 ],
-					"text" : "-1."
+					"text" : "241.1"
 				}
 
 			}
@@ -2990,7 +2970,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3462.333364248275757, 1153.00000011920929, 63.0, 22.0 ],
-					"text" : "-1."
+					"text" : "8."
 				}
 
 			}
@@ -3211,7 +3191,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2169.978079080581665, 1113.147355298339789, 67.0, 22.0 ],
-					"text" : "0."
+					"text" : "149.3"
 				}
 
 			}
@@ -3235,7 +3215,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2261.478079676628113, 1137.647355298339789, 63.0, 22.0 ],
-					"text" : "0."
+					"text" : "2.5"
 				}
 
 			}
@@ -3577,7 +3557,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 311.0, 1150.666666865348816, 67.0, 22.0 ],
-					"text" : "0.5"
+					"text" : "91.8"
 				}
 
 			}
@@ -3626,7 +3606,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 399.000010251998901, 1167.166666865348816, 63.0, 22.0 ],
-					"text" : "0.5"
+					"text" : "4.5"
 				}
 
 			}
@@ -3758,7 +3738,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 426.666664361953735, 626.866675972938538, 50.0, 22.0 ],
-					"text" : "58"
+					"text" : "2"
 				}
 
 			}
@@ -3782,7 +3762,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 446.000010251998901, 761.866676509380341, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "146.8"
 				}
 
 			}
@@ -3806,7 +3786,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 328.5, 761.866676509380341, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "87.3"
 				}
 
 			}
@@ -4386,7 +4366,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.392156862745098, 0.850980392156863, 0.803921568627451, 1.0 ],
+					"bgcolor" : [ 0.741176470588235, 0.847058823529412, 0.529411764705882, 1.0 ],
 					"id" : "obj-49",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4412,7 +4392,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.396078431372549, 0.850980392156863, 0.796078431372549, 1.0 ],
+					"bgcolor" : [ 0.776470588235294, 0.866666666666667, 0.592156862745098, 1.0 ],
 					"id" : "obj-46",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4443,7 +4423,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 159.0, 601.5, 86.0, 22.0 ],
-					"text" : "100 217 205"
+					"text" : "189 216 135"
 				}
 
 			}
@@ -4455,7 +4435,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 58.0, 601.5, 82.0, 22.0 ],
-					"text" : "101 217 203"
+					"text" : "198 221 151"
 				}
 
 			}
@@ -4539,13 +4519,6 @@
 					"destination" : [ "obj-33", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"source" : [ "obj-1", 1 ]
 				}
 
 			}
@@ -5485,6 +5458,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"midpoints" : [ 73.0, 99.0, 208.0, 99.0, 208.0, 12.0, 435.250005125999451, 12.0 ],
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -6094,6 +6077,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
 					"order" : 0,
 					"source" : [ "obj-63", 0 ]
@@ -6433,24 +6423,6 @@
 				"name" : "slow-friction-01.js",
 				"bootpath" : "~/Documents/GitHub/slow-pixels/shared-project/slow-pixels-01/code",
 				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

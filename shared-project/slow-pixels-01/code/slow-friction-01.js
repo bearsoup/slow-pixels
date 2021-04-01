@@ -99,8 +99,6 @@ maxApi.addHandler('durmult', (durmultVal) => {
 	durmult = durmultVal;
 });
 
-maxApi.post(durmult);
-
 // get score data
 let scoreIndex = 0;
 let frDur = durmult * score[scoreIndex].duration;
@@ -138,7 +136,7 @@ async function makeArt() {
         pixelData.lookahead = pixels[i + spread];
         pixelData.homefr =  getFr();
 
-        maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step}`);
+        maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step} DurMult: ${durmult}`);
         maxApi.outlet(pixelData);
 
         // send data to Hue bulbs
