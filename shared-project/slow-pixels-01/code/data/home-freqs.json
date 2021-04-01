@@ -542,5 +542,437 @@
             "freq": 440.0,
             "note": "A"
         }
+    },
+    {
+        "step": 35,
+        "duration": 10,
+        "r": {
+            "freq": 293.7,
+            "note": "D nat"
+        },
+        "g": {
+            "freq": 329.6,
+            "note": "E"
+        },
+        "b": {
+            "freq": 415.3,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 31,
+        "duration": 2,
+        "r": {
+            "freq": 311.1,
+            "note": "Eb"
+        },
+        "g": {
+            "freq": 349.2,
+            "note": "F nat"
+        },
+        "b": {
+            "freq": 466.2,
+            "note": "Bb"
+        }
+    },
+    {
+        "step": 37,
+        "duration": 1,
+        "r": {
+            "freq": 329.6,
+            "note": "E nat"
+        },
+        "g": {
+            "freq": 392.0,
+            "note": "G nat"
+        },
+        "b": {
+            "freq": 493.9,
+            "note": "B nat"
+        }
+    },
+    {
+        "step": 38,
+        "duration": 2,
+        "r": {
+            "freq": 370.0,
+            "note": "F#"
+        },
+        "g": {
+            "freq": 415.3,
+            "note": "Ab"
+        },
+        "b": {
+            "freq": 523.3,
+            "note": "C nat"
+        }
+    },
+    {
+        "step": 39,
+        "duration": 2,
+        "r": {
+            "freq": 293.7,
+            "note": "D nat"
+        },
+        "g": {
+            "freq": 329.6,
+            "note": "E"
+        },
+        "b": {
+            "freq": 415.3,
+            "note": "Ab"
+        }
+    },
+    {
+        "step": 40,
+        "duration": 2,
+        "r": {
+            "freq": 311.1,
+            "note": "Eb"
+        },
+        "g": {
+            "freq": 370.0,
+            "note": "F#"
+        },
+        "b": {
+            "freq": 466.2,
+            "note": "Bb"
+        }
+    },
+    {
+        "step": 41,
+        "duration": 1,
+        "r": {
+            "freq": 329.6,
+            "note": "E nat"
+        },
+        "g": {
+            "freq": 392.0,
+            "note": "G nat"
+        },
+        "b": {
+            "freq": 493.9,
+            "note": "B nat"
+        }
+    },
+    {
+        "step": 42,
+        "duration": 2,
+        "r": {
+            "freq": 370.0,
+            "note": "F#"
+        },
+        "g": {
+            "freq": 415.3,
+            "note": "Ab"
+        },
+        "b": {
+            "freq": 523.3,
+            "note": "C nat"
+        }
+    },
+    {
+        "step": 43,
+        "duration": 4,
+        "r": {
+            "freq": 293.7,
+            "note": "D nat"
+        },
+        "g": {
+            "freq": 329.6,
+            "note": "E"
+        },
+        "b": {
+            "freq": 415.3,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 44,
+        "duration": 12,
+        "r": {
+            "freq": 261.6,
+            "note": "C nat"
+        },
+        "g": {
+            "freq": 329.6,
+            "note": "E"
+        },
+        "b": {
+            "freq": 415.3,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 45,
+        "duration": 13,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 207.7,
+            "note": "G#"
+        },
+        "b": {
+            "freq": 329.6,
+            "note": "E"
+        }
+    },
+    {
+        "step": 46,
+        "duration": 4,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 246.9,
+            "note": "B"
+        },
+        "b": {
+            "freq": 329.6,
+            "note": "E"
+        }
+    },
+    {
+        "step": 47,
+        "duration": 4,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 233.1,
+            "note": "A#"
+        },
+        "b": {
+            "freq": 293.7,
+            "note": "D nat"
+        }
+    },
+    {
+        "step": 48,
+        "duration": 4,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 207.7,
+            "note": "G#"
+        },
+        "b": {
+            "freq": 277.2,
+            "note": "C#"
+        }
+    },
+    {
+        "step": 49,
+        "duration": 8,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 164.8,
+            "note": "E"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 50,
+        "duration": 4,
+        "r": {
+            "freq": 146.8,
+            "note": "D nat"
+        },
+        "g": {
+            "freq": 174.6,
+            "note": "F nat"
+        },
+        "b": {
+            "freq": 233.1,
+            "note": "A#"
+        }
+    },
+    {
+        "step": 51,
+        "duration": 8,
+        "r": {
+            "freq": 146.8,
+            "note": "D nat"
+        },
+        "g": {
+            "freq": 174.6,
+            "note": "F nat"
+        },
+        "b": {
+            "freq": 246.9,
+            "note": "B"
+        }
+    },
+    {
+        "step": 52,
+        "duration": 26,
+        "r": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "g": {
+            "freq": 164.8,
+            "note": "E"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 53,
+        "duration": 4,
+        "r": {
+            "freq": 116.5,
+            "note": "A#"
+        },
+        "g": {
+            "freq": 174.6,
+            "note": "F"
+        },
+        "b": {
+            "freq": 293.7,
+            "note": "D nat"
+        }
+    },
+    {
+        "step": 54,
+        "duration": 4,
+        "r": {
+            "freq": 103.8,
+            "note": "G#"
+        },
+        "g": {
+            "freq": 174.6,
+            "note": "F"
+        },
+        "b": {
+            "freq": 277.2,
+            "note": "C#"
+        }
+    },
+    {
+        "step": 55,
+        "duration": 4,
+        "r": {
+            "freq": 98.0,
+            "note": "G nat"
+        },
+        "g": {
+            "freq": 146.8,
+            "note": "D nat"
+        },
+        "b": {
+            "freq": 246.9,
+            "note": "B"
+        }
+    },
+    {
+        "step": 56,
+        "duration": 4,
+        "r": {
+            "freq": 87.3,
+            "note": "F nat"
+        },
+        "g": {
+            "freq": 146.8,
+            "note": "D nat"
+        },
+        "b": {
+            "freq": 233.1,
+            "note": "A#"
+        }
+    },
+    {
+        "step": 57,
+        "duration": 8,
+        "r": {
+            "freq": 82.4,
+            "note": "E"
+        },
+        "g": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 58,
+        "duration": 2,
+        "r": {
+            "freq": 0.0,
+            "note": ""
+        },
+        "g": {
+            "freq": 0.0,
+            "note": ""
+        },
+        "b": {
+            "freq": 0.0,
+            "note": ""
+        }
+    },
+    {
+        "step": 59,
+        "duration": 6,
+        "r": {
+            "freq": 82.4,
+            "note": "E"
+        },
+        "g": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
+    },
+    {
+        "step": 60,
+        "duration": 4,
+        "r": {
+            "freq": 0.0,
+            "note": ""
+        },
+        "g": {
+            "freq": 0.0,
+            "note": ""
+        },
+        "b": {
+            "freq": 0.0,
+            "note": ""
+        }
+    },
+    {
+        "step": 61,
+        "duration": 4,
+        "r": {
+            "freq": 82.4,
+            "note": "E"
+        },
+        "g": {
+            "freq": 123.5,
+            "note": "B"
+        },
+        "b": {
+            "freq": 207.7,
+            "note": "G#"
+        }
     }
 ]
