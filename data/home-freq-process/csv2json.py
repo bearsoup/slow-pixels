@@ -39,7 +39,7 @@ def make_json(csvFilePath, jsonFilePath):
 
 # Driver Code
 
-csvFilePath = r'HomeFreqvalues01.csv'
+csvFilePath = r'HomeFreqvalues02.csv'
 jsonFilePath = r'home-freqs.json'
 
 make_json(csvFilePath, jsonFilePath)
