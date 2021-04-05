@@ -2,7 +2,7 @@
 	"name" : "slow-pixels-01",
 	"version" : 1,
 	"creationdate" : 3697628302,
-	"modificationdate" : 3700128099,
+	"modificationdate" : 3700375118,
 	"viewrect" : [ 968.0, 291.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -34,6 +34,11 @@
 		}
 ,
 		"code" : 		{
+			"slow-friction-02.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
 			"slow-friction-01.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
