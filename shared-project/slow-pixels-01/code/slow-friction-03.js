@@ -168,7 +168,7 @@ async function makeArt() {
         pixelData.homefr =  getFr();
 
         maxApi.outlet(pixelData);
-        //maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step} DurMult: ${durmult} Spread: ${spread} Speed: ${speed}`);
+        maxApi.post(`Pixel ${i}: Base: ${pixelData.base} Look (${i+spread}): ${pixelData.lookahead} ScoreStep: ${pixelData.homefr.step} DurMult: ${durmult} Spread: ${spread} Speed: ${speed}`);
 
         // send data to Hue bulbs
 
@@ -196,7 +196,7 @@ async function makeArt() {
             const pixelIndex = pixels[idxVal];
 
             // send logging to Max console
-            maxApi.post(`Pixel ${i}: Light ${lightID}: ${idxVal} (${pixelIndex})`);
+            //maxApi.post(`Pixel ${i}: Light ${lightID}: ${idxVal} (${pixelIndex})`);
 
             // send rgb data to bulbs
             theState.rgb(pixelIndex[0], pixelIndex[1], pixelIndex[2]);
