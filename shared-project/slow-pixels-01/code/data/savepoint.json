@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "savepoint",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"currentpix" : [ 275 ],
+					"currentstep" : [ 3 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
