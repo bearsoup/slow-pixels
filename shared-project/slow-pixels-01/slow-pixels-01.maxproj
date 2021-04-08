@@ -2,7 +2,7 @@
 	"name" : "slow-pixels-01",
 	"version" : 1,
 	"creationdate" : 3697628302,
-	"modificationdate" : 3700645355,
+	"modificationdate" : 3700727200,
 	"viewrect" : [ 968.0, 291.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -63,6 +63,10 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 
