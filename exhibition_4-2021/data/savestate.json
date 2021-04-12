@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "savestate",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"currentpix" : [ 592 ],
+					"currentstep" : [ 10 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

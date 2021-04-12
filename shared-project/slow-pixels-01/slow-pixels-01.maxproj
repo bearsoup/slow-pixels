@@ -2,7 +2,7 @@
 	"name" : "slow-pixels-01",
 	"version" : 1,
 	"creationdate" : 3697628302,
-	"modificationdate" : 3700727200,
+	"modificationdate" : 3700918926,
 	"viewrect" : [ 968.0, 291.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -45,6 +45,16 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"slow-pixels-10_add_mutes_link_stuff.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"slow-pixels-07_no_sync-2_startopt-pattr_broken.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -60,6 +70,11 @@
 			}
 ,
 			"slow-friction-01.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"slow-friction-03-nolights.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
